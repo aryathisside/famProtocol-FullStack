@@ -48,7 +48,7 @@ app.use(cookieParser());
 // );
 
 app.use(cors({
-  origin: 'https://fam-testnet-frontend.vercel.app', // Allow your frontend origin
+  origin: 'https://fam-testnet.vercel.app', // Allow your frontend origin
   // origin: 'http://localhost:3000', // Allow your frontend origin
   credentials: true // Allow credentials
 }));
